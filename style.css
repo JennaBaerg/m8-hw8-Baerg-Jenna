@@ -151,6 +151,9 @@ footer {
   nav > a:not(:first-of-type){
     margin-left: 0px;
 }
+  h1 {
+    font-size: 2.25rem;
+  }
   main article {
     padding: 7px;
 }
