@@ -152,13 +152,14 @@ footer {
     margin-left: 0px;
 }
   h1 {
-    font-size: 2.25rem;
+    font-size: 2.2rem;
   }
   main article {
     padding: 7px;
 }
   section.hero > .call-to-action {
     font-size: 1.35rem;
+    line-height: 170%;
 }
   main > article img {
     float: none;
