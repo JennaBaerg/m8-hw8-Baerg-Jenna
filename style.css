@@ -131,3 +131,39 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+@media only screen and (max-width: 500px) {
+
+  header {
+   padding: 12px 0px;
+}
+  nav {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   text-align: center;
+   margin: none; 
+  }
+  nav > a.logo {
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+  nav > a:not(:first-of-type){
+    margin-left: 0px;
+}
+  main article {
+    padding: 7px;
+}
+  section.hero > .call-to-action {
+    font-size: 1.35rem;
+}
+  main > article img {
+    float: none;
+    display:block;
+    margin: 0px auto;
+    width: 75%;
+}
+main > section, main > article {
+  margin-bottom: 10px;
+}
+}
